@@ -1,0 +1,41 @@
+.stores {
+  padding: 60px 0;
+}
+
+.stores-container {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.items-img, .items-info {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.items-info h2 {
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+.items-info p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	max-width: 320px;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 739px) {
+  .stores-container {
+    flex-direction: column;
+		max-width: 300px;
+  }
+	.items-img, .items-info {
+		margin-left: 0px;
+		margin-right: 0px;
+    
+	}
+}
+
+

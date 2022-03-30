@@ -1,0 +1,35 @@
+.banner {
+  background: url('../../Assets/bg-intro.jpg') no-repeat center center;
+  background-size: cover;
+  height: 28.75rem;
+}
+
+@media (max-width: 739px) {
+	.banner {
+		padding: 60px 0;
+	}
+}
+
+.banner h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+  padding-top: 150px;
+  padding-bottom: 0.5rem;
+}
+
+.banner h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+.banner p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #FFF;
+}

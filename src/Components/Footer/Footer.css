@@ -1,0 +1,26 @@
+.footer {
+	background: #d6d3c8;
+	padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	margin: 0 10px;
+	flex: 1;
+}
+
+.brand {
+  margin: 0 10px;
+}
+
+@media (max-width: 739px) {
+	.brand, .info p {
+		margin: 10px 0px;
+	}
+}

@@ -1,0 +1,61 @@
+.flavors {
+  background-color: #e7e4d8;
+  border-top: 3px solid #d6d3c8;
+	border-bottom: 3px solid #d6d3c8;
+	padding: 60px 0;
+}
+
+.flavors-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.produtos-item {
+	flex: 1;
+	margin:  0 10px 40px 10px;
+}
+
+.produtos-item h2 {
+	font-size: 2.25rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.produtos-item h2::before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: currentColor;
+	border-radius: 50%;
+	border: 5px solid #e7e4d8;
+	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto;
+}
+
+h2.paulista::before {
+	color: #492901;
+}
+
+h2.carioca::before {
+	color: #c17139;
+}
+
+h2.mineiro::before {
+	color: #d7a54d;
+}
+
+.produtos-item p {
+	font-size: 0.875rem;
+	line-height: 1.4rem;
+}
+
+@media (max-width: 739px) {
+	.produtos-item {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

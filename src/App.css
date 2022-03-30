@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+	color: #252525;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  max-width: 75rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 739px) {
+	.container {
+		flex-direction: column;
+		max-width: 300px;
+	}
+}
+

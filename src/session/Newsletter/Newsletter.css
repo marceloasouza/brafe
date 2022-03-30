@@ -1,0 +1,70 @@
+.newsletter {
+  background-color: #e7e4d8;
+	padding: 30px 0;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signit {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.signit h2 {
+  font-size: 2.25rem;
+}
+
+.signit p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.newsletter form {
+  flex: 1;
+	margin: 0 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.newsletter form label {
+  display: none;
+}
+
+.newsletter input {
+  flex: 1;
+  align-self: flex-start;
+  padding: 10px;
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+
+.newsletter button {
+  flex: 1;
+  align-self: flex-start;
+  padding: 13px;
+  background-color: #252525;
+  border: none;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #FFF;
+  cursor: pointer;
+}
+
+@media (max-width: 739px) {
+	.signit {
+		margin: 0 0 20px 0;
+    padding: 0px;
+	}
+	.newsletter form {
+		margin: 0px;
+	}
+}
